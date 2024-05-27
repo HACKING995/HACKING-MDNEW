@@ -64,7 +64,7 @@
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
       "value": ""
-  
+    }
     },
   
   "addons": [{ "plan": "heroku-postgresql:basic" }],
