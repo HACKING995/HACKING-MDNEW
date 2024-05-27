@@ -42,7 +42,7 @@ Original base [`Link`](https://github.com/HelgaIlham/ZukaBet)
 
 ## Run On Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOTCAHX/RTXZY-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HACKING995/HACKING-MDNEW)
 # Heroku Buildpack
 ### Instal Buildpack
 ```bash
