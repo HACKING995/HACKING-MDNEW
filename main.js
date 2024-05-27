@@ -51,6 +51,7 @@ const __dirname = global.__dirname(import.meta.url)
 
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.prefix = new RegExp('^[' + (opts['prefix'] || '‎\/!#.\\').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']')
+global.SESSION_ID = new SESSION_ID ||  ""  // PUT your SESSION_ID 
 
 global.db = new Low(
   /https?:\/\//.test(opts['db'] || '') ?
