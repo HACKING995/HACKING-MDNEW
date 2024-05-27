@@ -1,7 +1,7 @@
 {
   "name": "HACKING-MD",
   "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/BOTCAHX/RTXZY-MD",
+  "repository": "https://github.com/HACKING995/HACKING-MDNEW",
   "logo": "https://telegra.ph/file/89492a3fb0caf75dcbff1.jpg",
   "keywords": [
         "whatsapp-bot-md",
@@ -14,5 +14,18 @@
         "whiskeysockets",
         "botcahx",
         "baileys"
+  ],
+  "--stack":"container",
+  "env": {
+    "OWNER_NAME": {
+      "description": "Name for Bot Owner",    
+      "value": "Suhail Ser",
+      "required" :true
+    }
+  }, 
+  "addons": [{ "plan": "heroku-postgresql:basic" }],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ]
 }

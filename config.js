@@ -1,7 +1,7 @@
 global.owner = ['6281395861695']  
 global.mods = ['6281395861695'] 
 global.prems = ['6281395861695']
-global.nameowner = 'Tio'
+global.nameowner = process.env.OWNER_NAME || 'Tio'
 global.numberowner = '6281395861695' 
 global.mail = 'support@tioprm.eu.org' 
 global.gc = 'https://chat.whatsapp.com/CP5mV2D9IO730HpBgmkuyi'
