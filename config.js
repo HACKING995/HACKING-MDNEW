@@ -14,7 +14,8 @@ global.packname = 'Made With'
 global.author = 'Bot WhatsApp'
 global.autobio = false // Set true untuk mengaktifkan autobio
 global.maxwarn = '2' // Peringatan maksimum
-
+global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID 
+HANDLERS: process.env.PREFIX  || ".",
 //INI WAJIB DI ISI!//
 global.btc = 'YOUR_APIKEY_HERE' 
 //Daftar terlebih dahulu https://api.botcahx.eu.org
