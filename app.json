@@ -120,8 +120,6 @@
       "description": "Put Sticker Author_Name.",
       "value": "",
       "required": false 
-    }
-  }, 
-    
+  
   ]
 }
