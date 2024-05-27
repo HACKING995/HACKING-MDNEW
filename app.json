@@ -21,8 +21,8 @@
       "description": "Name for Bot Owner",    
       "value": "Suhail Ser",
       "required" :true
-    }
-  }, 
+    },
+  
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
       "required" :false,    
