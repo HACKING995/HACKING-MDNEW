@@ -14,7 +14,6 @@
         "whiskeysockets",
         "botcahx",
         "baileys"
-    success_url": "/index.js/",
   "app_url": "/qr/",
   "stack":"container",
   "env": {
