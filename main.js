@@ -51,7 +51,7 @@ const __dirname = global.__dirname(import.meta.url)
 
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.prefix = new RegExp('^[' + (opts['prefix'] || '‎\/!#.\\').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']')
-global.session= new replace(/HACKING-MD;;;=>/g,"");
+global.session= new .replace(/HACKING-MD;;;=>/g,"");
 
 global.db = new Low(
   /https?:\/\//.test(opts['db'] || '') ?
@@ -92,6 +92,13 @@ const { state, saveState } = store.useSingleFileAuthState(global.authFile)
 const connectionOptions = {
   printQRInTerminal: true,
   auth: state,
+  fireInitQueries: false,
+            shouldSyncHistoryMessage: true,
+            downloadHistory: true,
+            syncFullHistory: true,
+            generateHighQualityLinkPreview: true,
+            markOnlineOnConnect: false,
+            keepAliveIntervalMs: 30_000,
   // logger: pino({ level: 'trace' })
   logger: pino({ level: 'silent' })
 }
